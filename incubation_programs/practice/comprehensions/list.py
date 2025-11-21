@@ -4,3 +4,6 @@ print("b=",b)
 
 c=[n for n in a]
 print("c=",c)
+
+d=[(m**2 if m%2==0 else m) for m in a]
+print("d=",d)
