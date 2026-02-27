@@ -7,6 +7,9 @@ it=iter(b)
 print(next(it))
 print(next(it))
 print(next(it))
-
+print("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 for i in b:
-    print(i)
+    try:
+        print(next(it))
+    except StopIteration:
+        break

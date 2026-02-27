@@ -6,5 +6,5 @@ class Car:
 c1 = Car("Toyota", "Red")
 c2 = Car("Honda", "Blue")
 
-print(c1.brand, c1.color)
-print(c2.brand, c2.color)
+print(c1.brand, c2.color)
+print(c2.brand, c1.color)
