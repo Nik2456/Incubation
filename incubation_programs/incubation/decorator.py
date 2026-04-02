@@ -9,4 +9,4 @@ def decorator(func):
 def hello():
     print("Transaction is on going")
 
-hello
+hello()
