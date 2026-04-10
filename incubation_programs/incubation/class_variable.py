@@ -9,5 +9,6 @@ class Student:
 
 s1=Student("shaurya")
 s2=Student("Nikhil")
-print(s1.school,s1.name)
+print(s1.school)
+print(s1.name)
 print(s2.school,s2.name)

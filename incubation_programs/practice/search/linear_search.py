@@ -4,7 +4,7 @@ def linear_search(arr,target):
 
     for i, value in enumerate(arr):
         if value==target:
-            return i
+            return "Target os found:", num[i]
 
     return f"{target} not found"
-print(linear_search(num,7))
+print(linear_search(num,8))

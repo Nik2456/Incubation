@@ -9,4 +9,7 @@ def decorator(func):
 def hello():
     print("Transaction is on going")
 
-hello()
+arr = [1, 2, 3, 4, 5]
+
+if 4 in arr:
+    print("Found")
