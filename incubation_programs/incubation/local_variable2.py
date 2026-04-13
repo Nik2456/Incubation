@@ -5,6 +5,7 @@ class Class:
         
         a="Local variable"
         print(a)
+    #print(a)
 
 c1=Class()
 c1.method()

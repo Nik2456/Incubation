@@ -4,3 +4,4 @@ def method():
     print(a)
 
 method()
+#print(a)

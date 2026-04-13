@@ -12,4 +12,4 @@ def binary_search(arr,target):
         else:
             high = mid - 1
     return f"{target} is not found"
-print(binary_search(a,20))
+print(binary_search(a,22))

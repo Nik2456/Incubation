@@ -4,7 +4,7 @@ class Student:
     def __init__(self, name):
         self.name = name
 
-
+print("New:", Student.school)
 s1 = Student("Nikhil")
 s2 = Student("Priya")
 
