@@ -18,8 +18,8 @@ body= {
   ],
   "status": "available"
 }
-base_url='https://petstore.swagger.io/v2/pet'
-response = requests.post(f"{base_url}", json=body, headers=headers)
+base_url='https://petstore.swagger.io/v2'
+response = requests.post(f"{base_url}/pet", json=body, headers=headers)
 data = response.json()
 print(data)
 print(response.status_code)
