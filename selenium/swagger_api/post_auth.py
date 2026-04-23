@@ -1,15 +1,11 @@
 import requests
+import json
 
 base_url = "https://gorest.co.in/public/v2/users"
 headers = {"Authorization":"Bearer 2bbf50771a8cfb95bf793a3d0dfd8851996b85584c78ccbd3861c8873c8b93c1"}
-body = {
-    "id": 8439284,
-    "name": "Rajinder Ahluwalia Sr.",
-    "email": "ahluwalia_sr_rajindero4514@sporer.test",
-    "gender": "female",
-    "status": "active"
-}
-response = requests.post(f"{base_url}", headers = headers, json = body)
+json_file=open("C:/Users/NikhilBavane/PycharmProjects/PythonProject/Incubation/selenium/swagger_api/body.json")
+json_body = json.load(json_file)
+response = requests.post(f"{base_url}", headers = headers, json = json_body)
 data = response.json()
 print(data)
 print(response.status_code)
